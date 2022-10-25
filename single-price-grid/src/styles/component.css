@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,700;1,400&display=swap');
+
+body{
+    height: 90%;
+}
+
+.square1{
+    background-color:  white;
+    padding: 30px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.title{
+   color: hsl(180, 50%, 48%);
+   padding-top: 10px;
+}
+
+.second{
+    color: hsl(71, 73%, 54%);
+    font-size: 20px;
+    padding-top: 25px;
+}
+
+.paragraph{
+    color: rgba(0,0,0,40%);
+    line-height: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.price{
+    color: white;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+}
+.number{
+    color: rgba(255, 255, 255, 40%);
+    display: flex;
+    align-items: center;
+}
+
+#signUp{
+    background-color: hsl(71, 73%, 54%);
+    height: 70px;
+    font-size: 22px;
+    width: 100%;
+    border-radius: 7px;
+    color: white;
+    align-items: center;
+    margin-top: 30px;
+    border: none;
+    box-shadow: 7px 7px rgba(244, 244, 244, 0.105);
+}
+
+.square2{
+    padding: 30px;
+    background-color: hsl(180, 50%, 48%);
+    height: 90%;
+    line-height: 50px;
+    color: white;
+}
+
+.square3{
+    background-color: hsl(179, 47%, 52%);
+    color: white;
+    line-height: 30px;
+    border-radius: 0px 0px 15px 15px;
+    margin-bottom: 0;
+    padding: 30px;
+    }
+
+.square3 h2{
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+ul{
+    list-style: none;
+}
+
+.list{
+    padding: 0;
+}
+
+@media (min-width: 1440px) {
+    body{
+        height: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .container{
+        min-width: 1000px;
+        padding: 40px;
+    }
+    
+    .btn-cont{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+    }
+
+    .square2{
+        border-radius: 0px 0px 0px 15px;
+    }
+
+    .square3{
+        margin-bottom: -23px;
+        border-radius: 0px 0px 15px 0px;
+    }
+}
